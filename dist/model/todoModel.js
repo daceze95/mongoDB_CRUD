@@ -14,7 +14,7 @@ const todoSchema = new mongoose_1.default.Schema({
         required: true,
     },
 });
-const Todo = mongoose_1.default.model("todo", todoSchema);
+const Todo = mongoose_1.default.model("Todo", todoSchema);
 exports.default = Todo;
 // interface TodoInstance{
 //     "_id": string;
